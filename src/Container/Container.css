@@ -1,0 +1,30 @@
+.main-container {
+    color: white;
+}
+
+.main-img{
+    height: 80vh;
+    width: 65%;
+    border-radius: 1rem;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-description {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    background: rgba(255, 225, 0, .12);
+    border-radius: 1rem;
+    padding: 1rem;
+    line-height: 3rem;
+    font-size: 1.4rem;
+    width: 30%;
+}
+
+.main-date {
+    color: powderblue;
+}
