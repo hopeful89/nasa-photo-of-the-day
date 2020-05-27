@@ -17,10 +17,13 @@ function App() {
  
 
   console.log('newDate', newDate)
+  if (!data) return <h3>Loading...</h3>;
   return (
+    // Display a loading message while the data is fetching
+
     <div className="App">
       <SearchBar setNewDate={setNewDate} />
-      <Container obj={data}/>
+      <Container obj={data} newDate={newDate} setNewDate={setNewDate}/>
     </div>
   );
 }

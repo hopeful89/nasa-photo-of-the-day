@@ -1,0 +1,25 @@
+.buttons {
+    background: rgba(0, 0, 0, .0);
+    border: none;
+    width: 70px;
+    transform: translateX(150%);
+    color: white;
+    height: 70px;
+}
+.buttons::before {
+    content: '\27F8';
+    font-size: 5rem;
+}
+
+.inverse-button {
+    transform: translateX(-150%);
+}
+
+.inverse-button::before{
+    content: none;
+}
+
+.inverse-button::after{
+    content: '\27F9';
+    font-size: 5rem;
+}
