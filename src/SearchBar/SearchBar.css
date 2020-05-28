@@ -1,5 +1,9 @@
 input {
+    background: rgba(125, 125, 125, .5);
+    color: white;
     margin: .2rem;
+    text-align: center;
+    padding: .35em;
 }
 
 form {

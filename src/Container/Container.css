@@ -1,4 +1,4 @@
-.main-container {
+/* .main-container {
     color: white;
     height: 90%;
 }
@@ -7,9 +7,9 @@
     height: 70vh;
     width: 50%;
     border-radius: 1rem;
-}
+}*/
 
-.img-container {
+/* .img-container {
     display: flex;
     height: 90%;
     justify-content: space-around;
@@ -26,17 +26,16 @@
     padding: 1rem;
     font-size: 2rem;
     width: 40%;
-
-}
+} */
 
 /* .img-container .main-description {
     display: none;
 } */
 
-.main-date {
+/* .main-date {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     flex-shrink: 1;
     color: powderblue;
-}
+} */
